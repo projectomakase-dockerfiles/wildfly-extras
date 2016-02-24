@@ -1,4 +1,4 @@
-FROM projectomakase/wildfly:latest
+FROM projectomakase/wildfly:wildfly-8
 
 MAINTAINER Richard Lucas <feedback@projectomakase.org>
 

@@ -4,17 +4,17 @@ This repository contains the Dockerfile for creating a Wildfly instance with the
 
 ### Image ###
 
-The image **extends** the `projectomakase/wildfly:latest` image and adds Modeshape 4.3 and the Wildfly Camel Extension 2.3.0.
+The image **extends** the `projectomakase/wildfly:wildfly-8` image and adds Modeshape 4.5 and the Wildfly Camel Extension 2.3.0.
 
 ### Availability ###
 
-The Dockerfile is available in the master branch and is built in the Docker HUB as projectomakase/wildfly-extras:latest.
+The Dockerfile is available in the master branch and is built in the Docker HUB as projectomakase/wildfly-extras:wildfly-8.
 
 ### Usage ###
 
 To boot in standalone mode
 
-    docker run -d projectomakase/wildfly-extras
+    docker run -d projectomakase/wildfly-extras:wildfly-8
 
 ### Environment Variables ###
 
