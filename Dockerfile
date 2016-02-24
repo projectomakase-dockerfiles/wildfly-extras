@@ -2,7 +2,7 @@ FROM projectomakase/wildfly:latest
 
 MAINTAINER Richard Lucas <feedback@projectomakase.org>
 
-ENV WILDFLY_CAMEL_VERSION 2.3.0
+ENV WILDFLY_CAMEL_VERSION 3.3.0
 
 ENV MODESHAPE_VERSION 4.5.0.Final
 
